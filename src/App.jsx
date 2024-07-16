@@ -1,9 +1,10 @@
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import Layout from "./Components/Layout/Layout";
-import MainSection from "./Components/MainSection/MainSection";
 import Navbar from "./Components/Navbar/Navbar";
+import RecipeList from "./Components/RecipeList/RecipeList";
 import Recipes from "./Components/Recipes/Recipes";
+import SidebarTable from "./Components/SidebarTable/SidebarTable";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
         <Navbar></Navbar>
         <Banner></Banner>
         <Recipes></Recipes>
-        <MainSection></MainSection>
+        <div className="flex space-x-10 mt-14">
+          <RecipeList></RecipeList>
+          <SidebarTable></SidebarTable>
+        </div>
       </Layout>
     </>
   );

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/Mpf1YCwf/recipe1.jpg",
     "recipeName": "Chicken Basil Stir-fry",
     "shortDescription": "A quick and easy stir-fry with chicken and fresh basil leaves.",
     "ingredients": [
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "recipeImageUrl": "https://i.postimg.cc/MTCcPTmC/recipe2.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/NFPr64Px/recipe2.jpg",
     "recipeName": "Vegan Quinoa Salad",
     "shortDescription": "A refreshing and nutritious salad with quinoa and mixed vegetables.",
     "ingredients": [
@@ -31,7 +31,7 @@
   },
   {
     "id": 3,
-    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/Mpf1YCwf/recipe1.jpg",
     "recipeName": "Spaghetti Carbonara",
     "shortDescription": "A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
     "ingredients": [
@@ -47,7 +47,7 @@
   },
   {
     "id": 4,
-    "recipeImageUrl": "https://i.postimg.cc/MTCcPTmC/recipe2.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/NFPr64Px/recipe2.jpg",
     "recipeName": "Beef Tacos",
     "shortDescription": "Delicious tacos filled with seasoned beef, fresh vegetables, and cheese.",
     "ingredients": [
@@ -63,7 +63,7 @@
   },
   {
     "id": 5,
-    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/Mpf1YCwf/recipe1.jpg",
     "recipeName": "Classic Caesar Salad",
     "shortDescription": "A traditional Caesar salad with romaine lettuce, croutons, and Caesar dressing.",
     "ingredients": [
@@ -79,7 +79,7 @@
   },
   {
     "id": 6,
-    "recipeImageUrl": "https://i.postimg.cc/MTCcPTmC/recipe2.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/NFPr64Px/recipe2.jpg",
     "recipeName": "Lemon Garlic Shrimp",
     "shortDescription": "Juicy shrimp cooked in a lemon garlic sauce.",
     "ingredients": [
@@ -95,7 +95,7 @@
   },
   {
     "id": 7,
-    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/Mpf1YCwf/recipe1.jpg",
     "recipeName": "Vegetable Curry",
     "shortDescription": "A flavorful curry with a mix of fresh vegetables.",
     "ingredients": [
@@ -111,7 +111,7 @@
   },
   {
     "id": 8,
-    "recipeImageUrl": "https://i.postimg.cc/MTCcPTmC/recipe2.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/NFPr64Px/recipe2.jpg",
     "recipeName": "Grilled Salmon",
     "shortDescription": "Simple and delicious grilled salmon with herbs.",
     "ingredients": [
@@ -127,7 +127,7 @@
   },
   {
     "id": 9,
-    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeImageUrl": "https://i.postimg.cc/Mpf1YCwf/recipe1.jpg",
     "recipeName": "Pancakes",
     "shortDescription": "Fluffy pancakes perfect for breakfast.",
     "ingredients": [
