@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeName": "Chicken Basil Stir-fry",
+    "shortDescription": "A quick and easy stir-fry with chicken and fresh basil leaves.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom"
+    ],
+    "preparingTime": "30 min",
+    "calories": "320 calories"
+  },
+  {
+    "id": 2,
+    "recipeImageUrl": "https://i.postimg.cc/MTCcPTmC/recipe2.jpg",
+    "recipeName": "Vegan Quinoa Salad",
+    "shortDescription": "A refreshing and nutritious salad with quinoa and mixed vegetables.",
+    "ingredients": [
+      "200 g quinoa",
+      "1 cucumber",
+      "1 bell pepper",
+      "150 g cherry tomatoes",
+      "50 g arugula",
+      "50 ml olive oil"
+    ],
+    "preparingTime": "20 min",
+    "calories": "250 calories"
+  },
+  {
+    "id": 3,
+    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeName": "Spaghetti Carbonara",
+    "shortDescription": "A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
+    "ingredients": [
+      "400 g spaghetti",
+      "200 g pancetta",
+      "100 g parmesan cheese",
+      "2 large eggs",
+      "2 cloves garlic",
+      "Black pepper"
+    ],
+    "preparingTime": "25 min",
+    "calories": "550 calories"
+  },
+  {
+    "id": 4,
+    "recipeImageUrl": "https://i.postimg.cc/MTCcPTmC/recipe2.jpg",
+    "recipeName": "Beef Tacos",
+    "shortDescription": "Delicious tacos filled with seasoned beef, fresh vegetables, and cheese.",
+    "ingredients": [
+      "500 g ground beef",
+      "8 taco shells",
+      "100 g lettuce",
+      "100 g cheddar cheese",
+      "100 g salsa",
+      "1 onion"
+    ],
+    "preparingTime": "35 min",
+    "calories": "420 calories"
+  },
+  {
+    "id": 5,
+    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeName": "Classic Caesar Salad",
+    "shortDescription": "A traditional Caesar salad with romaine lettuce, croutons, and Caesar dressing.",
+    "ingredients": [
+      "1 romaine lettuce",
+      "100 g croutons",
+      "50 g parmesan cheese",
+      "150 ml Caesar dressing",
+      "1 lemon",
+      "2 cloves garlic"
+    ],
+    "preparingTime": "15 min",
+    "calories": "200 calories"
+  },
+  {
+    "id": 6,
+    "recipeImageUrl": "https://i.postimg.cc/MTCcPTmC/recipe2.jpg",
+    "recipeName": "Lemon Garlic Shrimp",
+    "shortDescription": "Juicy shrimp cooked in a lemon garlic sauce.",
+    "ingredients": [
+      "500 g shrimp",
+      "3 cloves garlic",
+      "1 lemon",
+      "50 g butter",
+      "2 tbsp olive oil",
+      "Parsley"
+    ],
+    "preparingTime": "20 min",
+    "calories": "250 calories"
+  },
+  {
+    "id": 7,
+    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeName": "Vegetable Curry",
+    "shortDescription": "A flavorful curry with a mix of fresh vegetables.",
+    "ingredients": [
+      "2 carrots",
+      "1 bell pepper",
+      "1 zucchini",
+      "200 g cauliflower",
+      "400 ml coconut milk",
+      "2 tbsp curry powder"
+    ],
+    "preparingTime": "40 min",
+    "calories": "300 calories"
+  },
+  {
+    "id": 8,
+    "recipeImageUrl": "https://i.postimg.cc/MTCcPTmC/recipe2.jpg",
+    "recipeName": "Grilled Salmon",
+    "shortDescription": "Simple and delicious grilled salmon with herbs.",
+    "ingredients": [
+      "4 salmon fillets",
+      "2 tbsp olive oil",
+      "1 lemon",
+      "2 cloves garlic",
+      "Fresh dill",
+      "Salt and pepper"
+    ],
+    "preparingTime": "25 min",
+    "calories": "350 calories"
+  },
+  {
+    "id": 9,
+    "recipeImageUrl": "https://i.postimg.cc/Ls0gPvY6/recipe1.jpg",
+    "recipeName": "Pancakes",
+    "shortDescription": "Fluffy pancakes perfect for breakfast.",
+    "ingredients": [
+      "200 g flour",
+      "2 eggs",
+      "300 ml milk",
+      "2 tbsp sugar",
+      "1 tbsp baking powder",
+      "Butter"
+    ],
+    "preparingTime": "15 min",
+    "calories": "400 calories"
+  }
+]
