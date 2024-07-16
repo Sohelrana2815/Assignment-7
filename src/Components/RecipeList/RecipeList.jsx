@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 import { useEffect } from "react";
 import { useState } from "react";
 import RecipeCard from "../../RecipeCard/RecipeCard";
 
-const RecipeList = () => {
+const RecipeList = ({ handleAddFoodItems }) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
@@ -14,13 +15,20 @@ const RecipeList = () => {
 
   return (
     <>
-      <div className="grid lg:grid-cols-2 grid-cols-1 lg:w-3/5 gap-6 space-y-6 p-4 border-4">
+      <div className="grid md:grid-cols-2 grid-cols-1 md:w-3/5 gap-6 space-y-6 p-4 border-4">
         {recipes.map((recipe) => (
-          <RecipeCard key={recipe.id} recipe={recipe}></RecipeCard>
+          <RecipeCard
+            key={recipe.id}
+            recipe={recipe}
+            handleAddFoodItems={handleAddFoodItems}
+          ></RecipeCard>
         ))}
       </div>
     </>
   );
 };
 
+RecipeList.propTypes = {
+  handleAddFoodItems: PropTypes.func.isRequired,
+};
 export default RecipeList;

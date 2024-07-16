@@ -1,32 +1,41 @@
-const SidebarTable = () => {
+import PropTypes from "prop-types";
+
+const SidebarTable = ({ foodItems }) => {
   return (
     <>
-      <div className="border-4 p-4 w-2/5">
-        <div className="overflow-x-auto">
-          <table className="table">
-            {/* head */}
-            <thead>
-              <tr>
-                <th></th>
-                <th>Name</th>
-                <th>Job</th>
-                <th>Favorite Color</th>
-              </tr>
-            </thead>
-            <tbody>
-              {/* row 1 */}
-              <tr className="hover cursor-pointer">
-                <th>1</th>
-                <td>Cy Ganderton</td>
-                <td>Quality Control Specialist</td>
-                <td>Blue</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <div className="overflow-x-auto">
+        <table className="table">
+          <thead>
+            <tr>
+              <th>
+                <label>
+                  <input type="checkbox" className="checkbox" />
+                </label>
+              </th>
+              <th>Name</th>
+              <th>Job</th>
+              <th>Favorite Color</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* row 1 */}
+          
+          </tbody>
+        </table>
       </div>
     </>
   );
 };
 
+// {foodItems.map((foodItem, index) => (
+//   <FoodItems
+//     key={foodItem.id}
+//     foodItem={foodItem}
+//     index={index}
+//   ></FoodItems>
+// ))}
+SidebarTable.propTypes = {
+  foodItems: PropTypes.array.isRequired,
+};
 export default SidebarTable;

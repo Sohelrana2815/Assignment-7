@@ -1,7 +1,7 @@
 import { FaClock, FaFire } from "react-icons/fa";
 import PropTypes from "prop-types";
 
-const RecipeCard = ({ recipe }) => {
+const RecipeCard = ({ recipe, handleAddFoodItems }) => {
   const {
     recipeName,
     shortDescription,
@@ -21,9 +21,11 @@ const RecipeCard = ({ recipe }) => {
           <p>{shortDescription}</p>
           <div className="divider"></div>
           <h2>Ingredients: {ingredients.length}</h2>
-          {ingredients.map((ingredient) => (
-            <li key={ingredient.id}>{ingredient}</li>
-          ))}
+          <div>
+            {ingredients.map((ingredient, index) => (
+              <li key={index}>{ingredient}</li>
+            ))}
+          </div>
           <div className="flex mt-4">
             <p className="flex items-center">
               <FaClock className="mr-3" /> {preparingTime}
@@ -34,7 +36,10 @@ const RecipeCard = ({ recipe }) => {
             </p>
           </div>
           <div className="card-actions mt-6">
-            <button className="btn btn-success rounded-full">
+            <button
+              onClick={() => handleAddFoodItems(recipe)}
+              className="btn btn-success rounded-full"
+            >
               Want to Cook
             </button>
           </div>
@@ -53,5 +58,6 @@ RecipeCard.propTypes = {
     calories: PropTypes.string.isRequired,
     ingredients: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
+  handleAddFoodItems: PropTypes.func.isRequired,
 };
 export default RecipeCard;
