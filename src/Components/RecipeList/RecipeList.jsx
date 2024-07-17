@@ -15,7 +15,7 @@ const RecipeList = ({ handleAddFoodItems }) => {
 
   return (
     <>
-      <div className="grid md:grid-cols-2 grid-cols-1 md:w-3/5 gap-6 space-y-6 p-4 border-4">
+      <div className="grid md:grid-cols-2 grid-cols-1 md:w-2/3 gap-6 space-y-6 p-4 ">
         {recipes.map((recipe) => (
           <RecipeCard
             key={recipe.id}
