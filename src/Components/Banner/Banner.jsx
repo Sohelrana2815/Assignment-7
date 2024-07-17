@@ -2,9 +2,13 @@ import banner from "../../assets/banner_img/banner2.jpg";
 const Banner = () => {
   return (
     <>
-      <div className="relative ">
-        <img src={banner} alt="Chef photo" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black to-gray-900 opacity-60"></div>
+      <div className="relative">
+        <img
+          src={banner}
+          alt="Chef photo"
+          className="w-full h-auto rounded-lg"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black to-gray-900 opacity-60 rounded-lg"></div>
 
         <div className="absolute inset-0 text-center lg:top-1/3 ">
           <div>

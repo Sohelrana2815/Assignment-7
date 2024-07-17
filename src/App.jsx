@@ -22,7 +22,7 @@ function App() {
       const newFoodItems = [...foodItems, foods];
       setFoodItems(newFoodItems); // Add new food item on the list
     } else {
-      toast.warning("This food item is already in cart!");
+      toast.warning(`${foods.recipeName} is already in cart!`);
     }
   };
 
